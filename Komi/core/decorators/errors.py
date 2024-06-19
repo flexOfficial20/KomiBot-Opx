@@ -29,7 +29,7 @@ from functools import wraps
 
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
-from nezuko import LOG_GROUP_ID, app
+from komi import LOG_GROUP_ID, app
 
 
 def split_limits(text):
