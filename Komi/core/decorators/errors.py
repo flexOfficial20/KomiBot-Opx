@@ -29,7 +29,7 @@ from functools import wraps
 
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
-
+ -1002100475470, app
 
 
 def split_limits(text):
