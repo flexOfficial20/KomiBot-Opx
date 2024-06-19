@@ -34,7 +34,7 @@ from uvloop import install
 
 from Komi import BOT_NAME, BOT_USERNAME, LOG_GROUP_ID, aiohttpsession, app
 from Komi.modules import ALL_MODULES
-from Komi.modules.sudoers import bot_sys_stats
+from Komi.modules.sudoers import 
 from Komi.utils import paginate_modules
 from Komi.utils.constants import MARKDOWN
 from Komi.utils.dbfunctions import clean_restart_stage
