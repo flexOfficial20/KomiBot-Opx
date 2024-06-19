@@ -14,7 +14,7 @@ GBAN_LOG_GROUP_ID = int(environ.get("GBAN_LOG_GROUP_ID", ""-1002100475470))
 MESSAGE_DUMP_CHAT = int(environ.get("MESSAGE_DUMP_CHAT", "-1002100475470"))
 WELCOME_DELAY_KICK_SEC = int(environ.get("WELCOME_DELAY_KICK_SEC", "300"))
 MONGO_URL = environ.get("MONGO_URL", "mongodb+srv://Mongo1:586637515hshhwfftqu@cluster0.tvy79ai.mongodb.net/?retryWrites=true&w=majority")
-ARQ_API_URL = environ.get("ARQ_API_URL", "")
+ARQ_API_URL = environ.get("ARQ_API_URL", "https://thearq.tech")
 ARQ_API_KEY = environ.get("ARQ_API_KEY", "HMXVLQ-NGJEQW-LGKBOW-XRUNUG-ARQ")
 RSS_DELAY = int(environ.get("RSS_DELAY", "300"))
 UPSTREAM_REPO = environ.get(
